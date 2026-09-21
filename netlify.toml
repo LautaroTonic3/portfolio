@@ -1,0 +1,12 @@
+# Netlify: conecta el repo y listo, o arrastra la carpeta /out a app.netlify.com/drop
+[build]
+  command = "npm run export"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

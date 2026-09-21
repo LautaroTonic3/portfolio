@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2550"/><stop offset=".55" stop-color="#2a2f7a"/><stop offset="1" stop-color="#0e5a7a"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".7" cy=".2" r=".7">
+      <stop offset="0" stop-color="#ffc46b" stop-opacity=".55"/><stop offset="1" stop-color="#ffc46b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f1e" stop-opacity=".75"/><stop offset="1" stop-color="#0a0f1e" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <rect width="900" height="1100" fill="url(#light)"/>
+  <g fill="#7fd8ff" opacity=".18">
+    <circle cx="120" cy="160" r="3"/><circle cx="780" cy="300" r="2"/><circle cx="700" cy="120" r="2.5"/><circle cx="200" cy="420" r="2"/><circle cx="820" cy="560" r="3"/>
+  </g>
+  <circle cx="450" cy="430" r="165" fill="url(#body)"/>
+  <path d="M130 1100 C150 820 290 700 450 700 C610 700 750 820 770 1100 Z" fill="url(#body)"/>
+  <text x="450" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" fill="#e8edf8" opacity=".7">Reemplaza public/images/foto.svg por tu foto</text>
+</svg>
